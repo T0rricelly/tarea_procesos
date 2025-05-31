@@ -1,0 +1,11 @@
+INSERT INTO cliente Values ('101', 'Robin', 3245980, 'robinpuentess@gmail.com');
+INSERT INTO estado Values (1,'Habitacion Disponible');
+INSERT INTO estado Values (2,'Habitacion Ocupada');
+INSERT INTO habitacion Values (1,1,1);
+INSERT INTO habitacion Values (2,2,1);
+INSERT INTO habitacion Values (3,3,2);
+INSERT INTO habitacion Values (4,4,1);
+select * from reserva;
+select * from cliente;
+select * from estado;
+select * from habitacion;
